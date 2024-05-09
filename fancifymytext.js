@@ -1,5 +1,8 @@
-<script>
+
 function sAlert(){
 alert("Hello World!");
 }
-</script>
+
+function makeBigger() {
+    document.getElementById("textInput").style.fontSize = "24pt";
+}
