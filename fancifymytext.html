@@ -6,6 +6,7 @@
 		<!-- link to your script file here -->
 		<script src="fancifymytext.js"></script>
 	</head>
+
 	<nav>
         <ul class="navbar">
           <li><a  href="index.html">Home</a></li>
@@ -26,12 +27,16 @@
 		<label>Fancify</label>
 		<form>
 			<button onclick="makeBigger()" type="button">Bigger!</button>
-			<br>
-			<input type ="radio" id="fancyRadio" name="fancytype" value="fancy">
+			<br><br>
+			<button onclick="moo()" type="button" >MOO</button>
+			<br><br>
+			<input type ="radio" id="fancyRadio" name="fancytype" value="fancy" onclick="fancify()">
 			<label for="fancyRadio">FancyShmancy</label><br>
-        	<input type="radio" id="boringRadio" name="fancyType" value="boring">
+        	<input type="radio" id="boringRadio" name="fancyType" value="boring" onclick="boring()">
         	<label for="boringRadio">BoringBetty</label><br>
-		</form><!-- Your UI controls go here -->
+			
+			
+		</form>
 		
 	</body>
 </html>

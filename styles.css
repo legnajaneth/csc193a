@@ -37,5 +37,17 @@ li{
 }
 label{
     font-size: 150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+button{
+    padding: 14px 15px;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    background-color: #2e82a3;
+}
+.button:active {
+    background-color: #3e778e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
